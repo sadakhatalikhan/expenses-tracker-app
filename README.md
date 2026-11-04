@@ -1,11 +1,28 @@
 ## Github repo
 1. git init
-2. git add README.md
 3. git commit -m "first commit"
 4. git branch -M main
 5. git remote add origin https://github.com/sadakhatalikhan/expenses-tracker-app.git
 6. git push -u origin main
 
-# Navigation packages installation
+## Navigation packages installation
 1. npm install @react-navigation/native
 2. npm install @react-navigation/stack
+
+## SafeArea View package installation
+1. npx expo install react-native-safe-area-context
+
+## Responsive UI package installation
+1. npm install -save react-native-size-matters
+
+## Vector icons package installation
+1. npm install @expo/vector-icons
+
+## React native element dropdown
+1. npm install react-native-element-dropdown
+
+## expo checkbox package installation
+1. npm install expo-checkbox
+
+## React native SVG installation
+1. nom install react-native-svg
