@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     buttonStyle: {
         backgroundColor: '#FF197D',
         paddingVertical: vs(12),
-        paddingHorizontal: s(120),
-        borderRadius: 8,
+        paddingHorizontal: s(100),
+        borderRadius: s(8),
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'row',
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     },
     loginText: {
         color: 'white',
-        fontSize: 16,
+        fontSize: s(15),
         fontWeight: '500',
     }
 })

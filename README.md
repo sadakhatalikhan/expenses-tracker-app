@@ -26,3 +26,7 @@
 
 ## React native SVG installation
 1. nom install react-native-svg
+
+## Http requests
+1. https://www.npmjs.com/package/axios
+2. npm i axios
