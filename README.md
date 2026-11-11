@@ -33,3 +33,6 @@
 
 ## React native stack package installation
 1. npm install @react-navigation/native-stack
+
+## Bottom tab navigation package installation
+1. react-navigation/bottom-tabs

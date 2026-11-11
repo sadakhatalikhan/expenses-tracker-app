@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
 
   // CARD DESIGN
   balanceCard: {
-    backgroundColor: '#FF597D',
+    backgroundColor: '#E4EEED',
     borderRadius: 22,
     padding: 22,
 
@@ -79,13 +79,13 @@ const styles = StyleSheet.create({
   },
 
   cardTitle: {
-    color: '#f2ebef',
+    color: '#000',
     fontSize: 16,
     fontWeight: '600',
   },
 
   totalBalance: {
-    color: '#f2ebef',
+    color: '#000',
     fontSize: 30,
     fontWeight: 'bold',
     marginTop: 12,
@@ -103,13 +103,13 @@ const styles = StyleSheet.create({
   },
 
   label: {
-    color: '#D8EAE6',
+    color: '#000',
     fontSize: 14,
     marginBottom: 8,
   },
 
   amount: {
-    color: '#FFFFFF',
+    color: '#000',
     fontSize: 18,
     fontWeight: 'bold',
   },

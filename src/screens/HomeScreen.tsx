@@ -1,19 +1,14 @@
-
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import {
-  View,
-  Text,
-  StyleSheet,
-  ScrollView,
-  TouchableOpacity,
-} from 'react-native';
-import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../http/types/types';
 import HomeScreenHeader from '../components/Home/HomeScreenHeader';
 import OverlappingCard from '../components/Home/OverlappingCard';
+import { s, vs } from 'react-native-size-matters';
+import PaymentBlock from '../components/Home/PaymentBlock';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
+type Props = NativeStackScreenProps<RootStackParamList, 'HomeScreen'>;
 
 const HomeScreen: React.FC<Props> = ({ route }) => {
   const { user } = route.params;
@@ -32,27 +27,20 @@ const HomeScreen: React.FC<Props> = ({ route }) => {
 
       {/* QUICK ACTIONS */}
       <View style={styles.content}>
-
-        <Text style={styles.sectionTitle}>
-          Quick Actions
-        </Text>
-
-        <View style={styles.actionRow}>
-          <ActionCard title="Wallet" icon="💰" />
-          <ActionCard title="Transfer" icon="💸" />
-          <ActionCard title="Reports" icon="📊" />
-        </View>
-
         {/* RECENT TRANSACTIONS */}
         <View style={styles.transactionHeader}>
           <Text style={styles.sectionTitle}>
-            Recent Transactions
+            Recent Payments
           </Text>
 
           <Text style={styles.viewAll}>
             View all
           </Text>
         </View>
+        <PaymentBlock imageLink="../../../assets/rtxn1.jpeg" payName="Cement Purchase" payDate="11/11/2026"/>
+        <PaymentBlock imageLink="../../../assets/rtxn1.jpeg" payName="Cement Purchase" payDate="11/11/2026"/>
+        <PaymentBlock imageLink="../../../assets/rtxn1.jpeg" payName="Cement Purchase" payDate="11/11/2026"/>
+        <PaymentBlock imageLink="../../../assets/rtxn1.jpeg" payName="Cement Purchase" payDate="11/11/2026"/>
 
       </View>
 
@@ -60,19 +48,6 @@ const HomeScreen: React.FC<Props> = ({ route }) => {
     </SafeAreaView>
   );
 };
-
-const ActionCard = ({
-  title,
-  icon,
-}: {
-  title: string;
-  icon: string;
-}) => (
-  <TouchableOpacity style={styles.actionCard}>
-    <Text style={styles.actionIcon}>{icon}</Text>
-    <Text style={styles.actionTitle}>{title}</Text>
-  </TouchableOpacity>
-);
 
 const styles = StyleSheet.create({
 
@@ -82,48 +57,20 @@ const styles = StyleSheet.create({
   },
 
   scrollContent: {
-    paddingBottom: 30,
+    paddingBottom: s(30),
   },
   
-
   // BODY CONTENT
   content: {
-    paddingHorizontal: 22,
-    marginTop: 28,
+    paddingHorizontal: s(22),
+    marginTop: vs(10),
   },
-
   sectionTitle: {
-    fontSize: 19,
+    fontSize: s(19),
     fontWeight: 'bold',
     color: '#252525',
-    marginBottom: 18,
+    marginBottom: vs(18),
   },
-
-  actionRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-
-  actionCard: {
-    width: '31%',
-    backgroundColor: '#FFFFFF',
-    borderRadius: 15,
-    paddingVertical: 20,
-    alignItems: 'center',
-    elevation: 3,
-  },
-
-  actionIcon: {
-    fontSize: 28,
-    marginBottom: 8,
-  },
-
-  actionTitle: {
-    color: '#333333',
-    fontSize: 13,
-    fontWeight: '600',
-  },
-
   transactionHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
