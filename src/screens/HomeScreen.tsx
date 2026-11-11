@@ -30,31 +30,31 @@ const HomeScreen: React.FC<Props> = ({ route }) => {
       {/* OVERLAPPING CARD */}
       <OverlappingCard />
 
-        {/* QUICK ACTIONS */}
-        <View style={styles.content}>
+      {/* QUICK ACTIONS */}
+      <View style={styles.content}>
 
+        <Text style={styles.sectionTitle}>
+          Quick Actions
+        </Text>
+
+        <View style={styles.actionRow}>
+          <ActionCard title="Wallet" icon="💰" />
+          <ActionCard title="Transfer" icon="💸" />
+          <ActionCard title="Reports" icon="📊" />
+        </View>
+
+        {/* RECENT TRANSACTIONS */}
+        <View style={styles.transactionHeader}>
           <Text style={styles.sectionTitle}>
-            Quick Actions
+            Recent Transactions
           </Text>
 
-          <View style={styles.actionRow}>
-            <ActionCard title="Wallet" icon="💰" />
-            <ActionCard title="Transfer" icon="💸" />
-            <ActionCard title="Reports" icon="📊" />
-          </View>
-
-          {/* RECENT TRANSACTIONS */}
-          <View style={styles.transactionHeader}>
-            <Text style={styles.sectionTitle}>
-              Recent Transactions
-            </Text>
-
-            <Text style={styles.viewAll}>
-              View all
-            </Text>
-          </View>
-
+          <Text style={styles.viewAll}>
+            View all
+          </Text>
         </View>
+
+      </View>
 
       </ScrollView>
     </SafeAreaView>

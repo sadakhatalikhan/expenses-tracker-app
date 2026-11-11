@@ -9,7 +9,7 @@ const OverlappingCard = () => {
 
           <View style={styles.cardHeader}>
             <Text style={styles.cardTitle}>
-              Available Budget
+              Total Budget
             </Text>
           </View>
 
@@ -23,19 +23,19 @@ const OverlappingCard = () => {
 
             <View>
               <Text style={styles.label}>
-                ↓ Income
+                Available
               </Text>
               <Text style={styles.amount}>
-                ₹ 1,84,000
+                ₹ 20,00,000.00
               </Text>
             </View>
 
             <View>
               <Text style={styles.label}>
-                ↑ Expenses
+                Spent
               </Text>
               <Text style={styles.amount}>
-                ₹ 28,400
+                ₹ 20,00,000.00
               </Text>
             </View>
 
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
 
   // CARD DESIGN
   balanceCard: {
-    backgroundColor: '#FF197D',
+    backgroundColor: '#FF597D',
     borderRadius: 22,
     padding: 22,
 

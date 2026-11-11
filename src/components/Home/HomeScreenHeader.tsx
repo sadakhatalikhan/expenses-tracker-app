@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   // HEADER BACKGROUND
   header: {
     height: 230,
-    backgroundColor: '#FF597D',
+    backgroundColor: '#FF697D',
     borderBottomLeftRadius: 65,
     borderBottomRightRadius: 65,
     paddingHorizontal: 25,
