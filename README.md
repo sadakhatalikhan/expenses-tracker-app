@@ -25,8 +25,11 @@
 1. npm install expo-checkbox
 
 ## React native SVG installation
-1. nom install react-native-svg
+1. npm install react-native-svg
 
 ## Http requests
 1. https://www.npmjs.com/package/axios
 2. npm i axios
+
+## React native stack package installation
+1. npm install @react-navigation/native-stack

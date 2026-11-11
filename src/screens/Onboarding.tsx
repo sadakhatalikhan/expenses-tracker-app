@@ -6,7 +6,8 @@ import { useNavigation } from '@react-navigation/native';
 
 const Onboarding = () => {
 
-    const Navigation = useNavigation<any>();
+  const Navigation = useNavigation<any>();
+  
   return (
     <>
     <View style={styles.topRightCorner}/>
@@ -15,7 +16,7 @@ const Onboarding = () => {
       <Text style={styles.slogan}>Smarter way to save & understand your spent</Text>
     </View>
     <TouchableOpacity style={styles.startedArrowStyle} onPress={() => Navigation.navigate("Login")}>
-        <Entypo name="arrow-with-circle-right" size={50} color="#FF197D" />
+        <Entypo name="arrow-with-circle-right" size={50} color="#FF597D" />
     </TouchableOpacity>    
     <View style={styles.bottomRightCorner}/>
     </>
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
     appName: {
         fontSize: 48,
         fontWeight: 'bold',
-        color: '#FF197D',
+        color: '#FF597D',
     },
     slogan: {
         fontSize: 15,
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
         right: 0,
         width: 200,
         height: 150,
-        backgroundColor: "#FF197D",
+        backgroundColor: "#FF597D",
         borderBottomLeftRadius: 120,
     },
     bottomRightCorner: {
@@ -56,7 +57,7 @@ const styles = StyleSheet.create({
         left: 0,
         width: 200,
         height: 130,
-        backgroundColor: "#FF197D",
+        backgroundColor: "#FF597D",
         borderTopRightRadius: 120,
     },
     startedArrowStyle: {

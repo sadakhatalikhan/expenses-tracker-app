@@ -52,7 +52,7 @@ const LoginForm = () => {
 
         if(response.status == 200) {
             console.log("Login successful:", response.data);
-            Navigation.replace("Home", {user: response.data});
+            Navigation.replace("HomeScreen", {user: response.data});
         } else {
             Alert.alert("Login failed", response.message || "An error occurred while logging in."); 
         }
@@ -96,7 +96,7 @@ const LoginForm = () => {
        <View style={styles.registerTextBlock}>
             <Text style={styles.registerText}>Don't have an account?  
             <TouchableOpacity style={{marginTop: s(5)}} onPress={() => Navigation.navigate("Register")}>
-                <Text style={{color: '#FF197D', fontWeight: 'bold', textDecorationLine: 'underline'}}> Register</Text>
+                <Text style={{color: '#FF597D', fontWeight: 'bold', textDecorationLine: 'underline'}}> Register</Text>
         </TouchableOpacity>
        </Text>
     
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     forgotPasswordText: {
         fontSize: s(12),
         marginBottom: s(10),
-        color: '#FF197D',
+        color: '#FF597D',
         textAlign: 'right'
     },
     loginText: {
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
         fontWeight: '500'
     },
     buttonStyle: {
-        backgroundColor: '#FF197D',
+        backgroundColor: '#FF597D',
         paddingVertical: vs(12),
         paddingHorizontal: s(100),
         borderRadius: s(8),

@@ -30,7 +30,7 @@ export interface JwtResponse {
     type: string;
     token: string;
     id: string;
-    name: string;
+    username: string;
     phoneNumber: string;
     createdDate: Date;
     updatedDate: Date;

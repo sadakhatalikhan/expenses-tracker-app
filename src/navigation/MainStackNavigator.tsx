@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeScreen from '../screens/Home';
+import HomeScreen from '../screens/HomeScreen';
 import { createStackNavigator } from '@react-navigation/stack';
 import Onboarding from '../screens/Onboarding';
 import Login from '../screens/Login';
@@ -15,7 +15,7 @@ function MainStackNavigator ()  {
     >
       <Stack.Screen name="Onboarding" component={Onboarding} />
       <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="HomeScreen" component={HomeScreen} />
       <Stack.Screen name="Register" component={Register} />
     </Stack.Navigator>
   )

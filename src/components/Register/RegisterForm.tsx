@@ -142,11 +142,11 @@ const styles = StyleSheet.create({
     forgotPasswordText: {
         fontSize: s(12),
         marginBottom: s(10),
-        color: '#FF197D',
+        color: '#FF597D',
         textAlign: 'right'
     },
     buttonStyle: {
-        backgroundColor: '#FF197D',
+        backgroundColor: '#FF597D',
         paddingVertical: vs(12),
         paddingHorizontal: s(100),
         borderRadius: s(8),

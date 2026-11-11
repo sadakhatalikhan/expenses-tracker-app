@@ -12,10 +12,10 @@ const GoBack: React.FC<GoBackProps> = ({navigationScreen}) => {
     const Navigation = useNavigation<any>();
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => Navigation.navigate(navigationScreen)}>
+      <TouchableOpacity style={{flexDirection: 'row'}} onPress={() => Navigation.navigate(navigationScreen)}>
         <MaterialCommunityIcons name="less-than" size={15} color="black" />
+        <Text>Back</Text>
       </TouchableOpacity>
-      <Text>Back</Text>
     </View>
   )
 }
@@ -27,6 +27,6 @@ const styles = StyleSheet.create({
         alignItems: 'flex-start',
         padding: 20,
         flexDirection: 'row',
-        gap: s(10)
-    },
+        gap: s(5)
+    }
 })
