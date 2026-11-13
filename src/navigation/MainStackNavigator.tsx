@@ -1,10 +1,11 @@
-import HomeScreen from '../screens/HomeScreen';
 import { createStackNavigator } from '@react-navigation/stack';
 import Onboarding from '../screens/Onboarding';
 import Login from '../screens/Login';
 import Register from '../screens/Register';
+import HomeTabsNavigator from './HomeTabsNavigator';
+import { RootStackParamList } from '../http/types/types';
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<RootStackParamList>();
 
 function MainStackNavigator ()  {
   return (
@@ -14,7 +15,7 @@ function MainStackNavigator ()  {
     >
       <Stack.Screen name="Onboarding" component={Onboarding} />
       <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="HomeScreen" component={HomeScreen} />
+      <Stack.Screen name="HomeScreen" component={HomeTabsNavigator} />
       <Stack.Screen name="Register" component={Register} />
     </Stack.Navigator>
   )

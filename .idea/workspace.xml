@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05d402b0-921c-4dfd-a74f-fef118dbc43e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/expense-tracker-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/MainStackNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/MainStackNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/sadakhatalikhannavab/reactJs/expense-tracker-app" value="3M27dQuEB6sxA8a6f0pqdMaqOxs" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sadakhatalikhan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sadakhatalikhan/expenses-tracker-app.git",
+    "accountId": "0c7fe249-ac33-4069-8140-c94b3923bc1b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3M27dMrBvTudZwMlLGK2lsJXhqZ" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="ensembleEnabled" value="false" />
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sadakhatalikhannavab/reactJs/expense-tracker-app",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05d402b0-921c-4dfd-a74f-fef118dbc43e" name="Changes" comment="" />
+      <created>1794536895119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794536895119</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

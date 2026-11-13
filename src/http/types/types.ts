@@ -1,6 +1,4 @@
 import { JwtResponse } from "../../http/models/User";
-import { RouteProp } from "@react-navigation/native";
-import { StackNavigationProp } from "@react-navigation/stack";
 
 export type RootStackParamList = {
     Onboarding: undefined;
@@ -15,4 +13,13 @@ export type RootStackParamList = {
     ProfileScreen: {
         user: JwtResponse;
     }
+}
+
+export type HomeTabParamList = {
+    Home: {
+        user: JwtResponse;
+    };
+    Expenses: undefined;
+    Statistics: undefined;
+    Profile: undefined;
 }
