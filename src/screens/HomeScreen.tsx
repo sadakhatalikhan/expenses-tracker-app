@@ -1,18 +1,18 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../http/types/types';
 import HomeScreenHeader from '../components/Home/HomeScreenHeader';
 import OverlappingCard from '../components/Home/OverlappingCard';
 import { s, vs } from 'react-native-size-matters';
 import PaymentBlock from '../components/Home/PaymentBlock';
+import { StackScreenProps } from '@react-navigation/stack';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'HomeScreen'>;
+type HomeScreenProps = StackScreenProps<RootStackParamList, 'HomeScreen'>;
 
-const HomeScreen: React.FC<Props> = ({ route }) => {
+const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
   const { user } = route.params;
-
+  console.log('User data received in HomeScreen:', user);
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView

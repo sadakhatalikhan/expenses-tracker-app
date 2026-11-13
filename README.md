@@ -35,4 +35,6 @@
 1. npm install @react-navigation/native-stack
 
 ## Bottom tab navigation package installation
-1. react-navigation/bottom-tabs
+1. npm install @react-navigation/bottom-tabs
+2. npx expo install react-native-screens
+3. npx expo install expo-secure-store

@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
         padding: s(10),
         width: s(310),
         backgroundColor: '#E4EEED',
-        borderRadius: 10
+        borderRadius: s(10),
+        marginBottom: vs(10)
     },
    payName: {
     fontSize: s(12),
