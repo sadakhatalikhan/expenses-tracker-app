@@ -1,8 +1,8 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import { s, vs } from 'react-native-size-matters'
 import { getGreeting } from '../../http/utils/greeting';
 import { useNavigation } from '@react-navigation/native';
+import { Ionicons } from '@expo/vector-icons';
 
 interface HomeScreenHeaderProps {
   username: string;
@@ -22,7 +22,12 @@ const HomeScreenHeader: React.FC<HomeScreenHeaderProps> = ({ username }) => {
         </Text>
       </View>
       <TouchableOpacity style={styles.profile}>
-        <Text style={styles.profileText}>LO</Text>
+        <Text style={styles.profileText}>
+          <Ionicons name="log-out"
+            color={"green"}
+            size={30}
+          />
+        </Text>
       </TouchableOpacity>
     </View>
   )

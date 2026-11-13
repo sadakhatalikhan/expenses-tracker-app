@@ -10,6 +10,9 @@ export type RootStackParamList = {
     ExpensesScreen: {
         user: JwtResponse;
     };
+    StaticsScreen: {
+        user: JwtResponse;
+    };
     ProfileScreen: {
         user: JwtResponse;
     }
@@ -19,7 +22,13 @@ export type HomeTabParamList = {
     Home: {
         user: JwtResponse;
     };
-    Expenses: undefined;
-    Statistics: undefined;
-    Profile: undefined;
+    Expenses: {
+        user: JwtResponse;
+    };
+    Statistics: {
+        user: JwtResponse;
+    };
+    Profile: {
+        user: JwtResponse;
+    };
 }
