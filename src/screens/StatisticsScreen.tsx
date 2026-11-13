@@ -12,7 +12,7 @@ const StatisticsScreen: React.FC<StatisticsScreenProps> = ({ route }) => {
   const { user } = route.params;
   return (
     <SafeAreaView style={styles.safeArea}>
-        <HomeScreenHeader username={user.username} />
+        <HomeScreenHeader username={user.username}/>
     </SafeAreaView>
   )
 }

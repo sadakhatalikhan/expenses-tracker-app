@@ -19,7 +19,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ route }) => {
         contentContainerStyle={styles.scrollContent}
       >
       {/* TOP HEADER */}
-      <HomeScreenHeader username={user.username} />
+      <HomeScreenHeader username={user.username}/>
 
       {/* OVERLAPPING CARD */}
       <OverlappingCard />
